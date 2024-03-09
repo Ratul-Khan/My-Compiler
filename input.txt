@@ -1,0 +1,170 @@
+#* including header file *#
+!ontorvokto%stdio.h%
+
+#* definition *#
+!def q 100
+
+#* declaration of structure *#
+encapsule RATUL :
+shuru
+	purno r $
+	func nothing rf<>:
+	shuru 
+		r soman 2$
+	shesh
+shesh
+
+#* declaration of function *#
+func nothing ratul<purno r>:
+shuru
+	   r soman 2$
+shesh
+
+#* main function *#
+func main<>:
+shuru
+	#* declaring one variable *#
+	purno a$
+	#* declaring multiple variable *#
+	purno b;c$
+	
+	#* assigning value *#
+	a soman 2$
+	show<a>$
+	
+	#* arithmetic operation *#
+	a soman 10 jog 8 biyog 6 gon 4 vag 2$
+	show<a>$
+
+	#* remainder *#
+	a soman a vagshes 5$
+	show<a>$
+
+	#* minimum between two number *#
+	show<mn<2;a>>$
+
+	#* maximum between two number *#
+	show<mx<2;a>>$
+
+	#* binary of a decimal number *# 
+	show<bin<6>>$
+
+	#* cumulative sum *#
+	show<c_sum<10>>$
+
+	#* sort an array *#
+	sort<[1;6;2;8]>$
+	
+	#* reverse a string *#
+	rev<{ab}>$
+
+	#* sort a string *#
+	sort<{acdbfe}>$
+
+	#* increment *#
+	a soman barao<a;12>$
+	show<a>$
+
+	#* decrement *#
+	a soman komao<a;2>$
+	show<a>$
+
+	#* single increment *#
+	a soman forw<a>$
+	show<a>$
+
+	#* single decrement*#
+	a soman back<a>$
+	show<a>$
+
+	#* factorial *#
+	show<fact<10>>$
+
+	#* power *#
+	show<2 pow 3>$
+
+	#* sqrt *#
+	show<root<100>>$
+
+	#* GCD *#
+	show<gsago<2;6>>$
+
+	#* LCM *#
+	show<lsago<2;6>>$
+
+	#* check mowlik *#
+	show<is_mowlik<6>>$
+	#* print prime till n *#
+	print_mowlik_till<100>$
+
+	#* printing star *#
+	print_star<6>$
+	
+	#* area of a circle *#
+	show<cir_area<2>>$
+	
+	#* area of a square *#
+	show<sq_area<6>>$
+	
+	#* area of a rectangle *#
+	show<rec_area<2;6>>$
+
+	#* Logical *#
+	show<0 or 1>$
+	show<0 and 1>$
+	show<not 1>$
+	
+	#* Bitwise *#
+	show<2 b_or 6>$
+	show<2 b_and 6>$
+	show<neg 2>$
+	
+	#* Relational *#
+	show<a eq 6>$
+	show<a ne 6>$
+	show<a gt 2>$
+	show<a lt 2>$
+	show<a ge 10>$
+	show<a le 10>$
+
+	#* if else *#
+	jodi 2 ne 6:
+	shuru
+		show<0>$
+	shesh
+	na hoi 2 eq 6:
+	shuru
+		show<1>$
+	shesh
+
+	#* ternary *#
+	a soman 0 ? 2 / 6 $
+	show<a>$
+
+	#* for loop *#
+	
+	loop i:0 to 2 with 1
+	shuru
+		show<10>$
+	shesh
+
+	#* while loop *#
+	
+	purno w soman 0$
+	jotokkhon w to 2:
+	shuru
+		show<10>$
+	shesh
+
+	#* Switch Statement *#
+
+	toggle 1
+	shuru
+		cs 0 then
+			a soman 2 $
+		auto then
+			a soman 6 $
+	shesh
+	
+	show<a>$
+shesh

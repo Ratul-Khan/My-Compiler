@@ -1,0 +1,66 @@
+Header included
+Definition of q
+Structure is declared
+Function Declared
+Start of main
+2
+6
+1
+1
+2
+110
+55
+1 2 6 8 
+ba
+abcdef
+13
+11
+12
+11
+3628800
+8
+10
+2
+6
+0
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+12.5664006
+36
+12
+1
+0
+0
+6
+2
+-3
+0
+1
+1
+0
+1
+0
+Executed by if:
+ 0
+6
+Execute by for
+Iteration 1
+ 10
+Iteration 2
+ 10
+End of for
+Execute by while
+Iteration 1
+ 10
+Iteration 2
+ 10
+End of while
+Switch executed by default block
+6
+End of main
+Successful compilation
